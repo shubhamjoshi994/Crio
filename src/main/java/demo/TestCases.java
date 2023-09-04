@@ -41,5 +41,23 @@ public class TestCases {
         linkedInPost.endTest();
     }
 
+    public  void testCase04(){
+        BookMyShowImage bookMyShowImage = new BookMyShowImage();
+        bookMyShowImage.countImageUrl();
+        bookMyShowImage.endTest();
+    }
+
+    public  void testCase05(){
+        NestedFrames nestedFrames = new NestedFrames();
+        nestedFrames.nestedFrames();
+        nestedFrames.endTest();
+    }
+
+    public  void testCase06() throws InterruptedException {
+        ImdbCharts imdbCharts = new ImdbCharts();
+        imdbCharts.imdbChartRatings();
+        imdbCharts.endTest();
+    }
+
 
 }

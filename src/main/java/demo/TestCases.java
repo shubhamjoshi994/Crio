@@ -35,5 +35,11 @@ public class TestCases {
         bookMyShow.endTest();
     }
 
+    public  void testCase03(){
+        LinkedInPost linkedInPost = new LinkedInPost();
+        linkedInPost.createPost();
+        linkedInPost.endTest();
+    }
+
 
 }

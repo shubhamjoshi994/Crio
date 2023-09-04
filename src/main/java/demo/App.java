@@ -10,7 +10,8 @@ public class App {
         TestCases tests = new TestCases(); // Initialize your test class
 
 //        tests.testCase01();
-        tests.testCase02();
+//        tests.testCase02();
+        tests.testCase03();
 
     }
 

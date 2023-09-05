@@ -2,6 +2,8 @@ package demo;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.io.IOException;
+
 public class TestCases {
     ChromeDriver driver;
     public TestCases()
@@ -57,6 +59,12 @@ public class TestCases {
         ImdbCharts imdbCharts = new ImdbCharts();
         imdbCharts.imdbChartRatings();
         imdbCharts.endTest();
+    }
+
+    public  void testCase07() throws InterruptedException, IOException {
+        WindowsHandles windowsHandles = new WindowsHandles();
+        windowsHandles.testingWindowHandles();
+        windowsHandles.endTest();
     }
 
 
